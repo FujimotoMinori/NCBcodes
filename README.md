@@ -1,10 +1,11 @@
 **********************************************************************
 Processing the private ntuple with a macro
-************************************************************************
+**********************************************************************
 
 When the private ntuple is made and merged into a single root file, c++ 
 macros, containing the variables of this root file, can be automatically
 generated using TSelector with the following commands.
+
 Setting up the root first 
 $root -l
 root [0] TFile *f = TFile::Open("MyNtuple.root")
